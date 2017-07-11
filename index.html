@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Stress Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Are you stressed? Take our quiz.</h1>
+
+      <form id="test">
+        <label for="warning-signs">Are you experiencing any of these symptoms?</label>
+        <div class="form-group">
+          <input type="checkbox" name="warning-signs" value="sleep">Loss of sleep<br>
+          <input type="checkbox" name="warning-signs" value="overwhelmed">Overwhelmed<br>
+          <input type="checkbox" name="warning-signs" value="energy">Low energy<br>
+          <input type="checkbox" name="warning-signs" value="sex">Loss of sexual desire/ability<br>
+        </div>
+        <label for="warning-signs">Are you experiencing any of these physical symptoms?</label>
+        <div class="form-group">
+          <input type="checkbox" name="health-signs" value="bp">High blood pressure<br>
+          <input type="checkbox" name="health-signs" value="overwhelmed">Anxiety<br>
+          <input type="checkbox" name="health-signs" value="headaches">Headaches<br>
+          <input type="checkbox" name="health-signs" value="chest">Chest pain<br>
+        </div>
+        <label for="warning-signs">How do you deal with stress? Check all that apply</label>
+        <div class="form-group">
+          <input type="checkbox" name="coping" value="meditate">Meditate<br>
+          <input type="checkbox" name="coping" value="time">Manage your time<br>
+          <input type="checkbox" name="coping" value="cat">Pet a cat<br>
+          <input type="checkbox" name="coping" value="dog">Pet a dog<br>
+        </div>
+        <button type="submit">Submit Survey</button>
+      </form>
+
+      <div class="output">
+        
+      </div>
+
+    </div>
+  </body>
+</html>
